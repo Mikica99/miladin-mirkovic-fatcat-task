@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": ["dom", "es2017"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@homework-task/*": ["*"]
+    }
+  },
+  //"include": ["src/**/*.ts", "src/**/*.d.ts"],
+  "exclude": ["node_modules", "build", "scripts"]
+}
